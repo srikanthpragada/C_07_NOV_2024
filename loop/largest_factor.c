@@ -9,11 +9,11 @@ int main()
      printf("Enter a number:");
      scanf("%d", &n);
 
-     for(i = 2; i <= n/2 ; i ++)
+     for(i = n/2; i >= 2 ; i --)
      {
         if(n % i == 0)
         {
-            printf("Smallest Factor = %d", i);
+            printf("Largest Factor = %d", i);
             break;
         }
      }
