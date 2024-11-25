@@ -1,6 +1,8 @@
 // Take array of 10 elements, fill with random numbers
 
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 
 int main()
 {
