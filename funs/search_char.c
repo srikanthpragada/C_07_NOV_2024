@@ -18,5 +18,5 @@ void main()
 {
  char st[] = "hello";
 
-   printf("%d ", search_char(st, 'H') );
+   printf("%d ", search_char(st, 'l') );
 }
