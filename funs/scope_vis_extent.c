@@ -4,7 +4,9 @@ int g; // global variable
 
 void fun()
 {
-  int a;  // local variable
+  int a, g;  // local variable
+
+  printf("%d ", g);
 }
 
 void main()
