@@ -1,16 +1,13 @@
 #include <stdio.h>
 
-void main()
+void main(int argc, char * argv[])
 {
    FILE * fp;
-   char filename[30], line[100], * p;
+   char line[100], * p;
    int lineno = 1;
 
 
-     printf("Enter filename: ");
-     gets(filename);
-
-     fp = fopen(filename, "rt");  // read-text mode
+     fp = fopen(argv[1], "rt");  // read-text mode
 
      if(fp  == NULL)  // file not opened
      {
